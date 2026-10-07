@@ -1,0 +1,27 @@
+name: Validate real NHANES data pipeline
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python src/pipeline.py
+      - run: python -m unittest discover -s tests -v
+      - run: python src/verify_excel.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: validated-nhanes-outputs
+          path: |
+            reports/validation.json
+            reports/NHANES_analysis.pdf
+            reports/sql_reconciliation.csv
