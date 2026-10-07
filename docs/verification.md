@@ -21,6 +21,6 @@ Desktop Excel COM activation failed with E_ACCESSDENIED (80070005) in the author
 
 The completion script creates a separate native workbook and records pass/failure in `reports/excel_native_validation.json`. It compares query outputs with CSV data, saves and reopens the workbook, and checks feature counts. Even after script success, manually exercise slicer filters and confirm that both PivotTables respond. A report file merely existing is not evidence of a pass; inspect its status.
 
-The GitHub Actions workflow is supplied but has not been executed remotely. A future workflow failure must be investigated before describing CI as passed.
+The [first GitHub Actions run](https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis/actions/runs/37650890215) passed on 7 October 2026: the pipeline, six regression tests, saved workbook checks and output upload all succeeded. See the Actions page for the latest result.
 
 Additional evidence: `reports/excel_native_alt_checks.json`, `reports/excel_native_creatinine_checks.json`, `reports/excel_ui_verification.json`, `reports/excel_automation_attempt.json` and `reports/reproduction_validation.json`. The latter confirms a pipeline run from a fresh ZIP extraction and byte-identical reproduction of all nine CSVs.

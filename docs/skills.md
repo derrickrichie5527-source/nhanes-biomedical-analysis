@@ -14,7 +14,7 @@ Lead positioning: data analyst with a biomedical focus. Research literacy and Ex
 | Excel selector, formatting and charts | Dashboard workbook and visual preview | Authoring engine, native selector/chart persistence and visual checks passed |
 | Power Query M | Six supplied queries and completion script | Authored; native execution pending |
 | PivotTables and shared slicers | Completion script | Authored; native execution pending |
-| Automation and regression testing | Reusable pipeline, six tests and CI workflow | Local tests passed; CI remote run pending |
+| Automation and regression testing | Reusable pipeline, six tests and CI workflow | Local tests and GitHub Actions passed |
 | Multi-format reporting | CSV, SQLite, XLSX, vector figures and PDF | Built; PDF and workbook visually reviewed |
 | Responsible biomedical interpretation | Units, detection flags, survey-design limitations | Documented |
 
