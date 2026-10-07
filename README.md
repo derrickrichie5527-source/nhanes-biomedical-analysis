@@ -57,28 +57,6 @@ The six biomarkers are ALT, AST, GGT, Albumin, Creatinine and blood urea nitroge
 
 The workbook is usable now as a populated analysis snapshot. It does not already contain the native Power Query/PivotTable/slicer features. The supplied script is intended to add them in a separate workbook; those features must not be represented as verified until the script succeeds in desktop Excel. Native Excel summary and selector checks are recorded separately from the pending query and PivotTable checks.
 
-## Reproduce the data and report
-
-Use Python 3.12 or later in a virtual environment. From this repository's root:
-
-```text
-python -m pip install -r requirements.txt
-python src/pipeline.py
-python -m unittest discover -s tests -v
-```
-
-The default run uses the committed original XPT files and verifies their pinned hashes. `python src/pipeline.py --download` retrieves the same files from CDC and rejects an unexpected hash. The pipeline regenerates CSVs, SQLite, figures, audit files and the PDF. It does **not** rebuild the authored Excel dashboard; the committed workbook is a snapshot of this pinned dataset.
-
-In SQLiteStudio, add `data/processed/nhanes.sqlite` as an existing database. Start with [CTE practice](sql/01_cte_practice.sql), then explore [analysis queries](sql/04_analysis.sql). [Schema](sql/02_schema.sql) and [views](sql/03_views.sql) document the database build. No Excel-to-SQLite ODBC driver is required.
-
-On Windows with desktop Excel installed, close the supplied workbook and run this from the repository root:
-
-```powershell
-powershell -NoProfile -File .\excel\Complete-Excel.ps1
-```
-
-The script leaves the supplied dashboard intact and creates `excel/NHANES_Rebuilt_Excel.xlsx`. It installs six M queries, loads their outputs, compares query records to the CSV outputs, creates two PivotTables and two shared demographic slicers, recalculates, then saves and reopens the workbook. Read `reports/excel_native_validation.json` for success or failure; interactive slicer behavior still requires a manual check. If local policy blocks the script or Excel activation, see [Excel instructions](docs/excel.md).
-
 ## Sources and project authorship
 
 Source: CDC/NCHS, NHANES 2017–2018 [Standard Biochemistry Profile](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm) and [Demographics](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm). Retrieved 7 October 2026. Original files and hashes are recorded in [the source manifest](docs/source_manifest.json). These are real public-use observations; no synthetic dataset is included.
