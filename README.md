@@ -53,7 +53,7 @@ The six biomarkers are ALT, AST, GGT, Albumin, Creatinine and blood urea nitroge
 | Workbook and all three PDF pages | Visually reviewed |
 | Native Excel open, full recalculation, save and reopen; 20,975 source/group/log rows compared | Passed |
 | Native desktop Excel query refresh, PivotTables and slicers | **Pending: script activation was denied; app control could not enter query code reliably** |
-| GitHub Actions workflow | [Check the latest workflow run](https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis/actions); initial remote validation pending |
+| GitHub Actions workflow | [Passed on GitHub](https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis/actions/runs/37650890215): pipeline, six tests and saved workbook checks |
 
 The workbook is usable now as a populated analysis snapshot. It does not already contain the native Power Query/PivotTable/slicer features. The supplied script is intended to add them in a separate workbook; those features must not be represented as verified until the script succeeds in desktop Excel. Native Excel summary and selector checks are recorded separately from the pending query and PivotTable checks.
 
