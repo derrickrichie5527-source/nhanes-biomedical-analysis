@@ -1,0 +1,8 @@
+step,variable,affected_rows,reason
+Normalize transport zero,LBDSATLC,5901,Decoder near-zero artifact in a source code/weight field; raw XPT retained
+Normalize transport zero,LBDSGTLC,5901,Decoder near-zero artifact in a source code/weight field; raw XPT retained
+Normalize transport zero,RIDAGEYR,357,Decoder near-zero artifact in a source code/weight field; raw XPT retained
+Normalize transport zero,WTMEC2YR,550,Decoder near-zero artifact in a source code/weight field; raw XPT retained
+Select adult cohort,RIDAGEYR,1136,"Age >= 20, predeclared exploratory adult cohort"
+Flag for review,Six biomarkers,1457,Pooled adult 1.5-IQR rule for statistical review only; no observations removed
+Reshape wide to long,Six biomarkers,31590,One row per participant and biomarker; all missing measurement slots retained
