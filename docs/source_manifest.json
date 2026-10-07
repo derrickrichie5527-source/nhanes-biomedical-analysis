@@ -1,0 +1,30 @@
+[
+  {
+    "file": "data/raw/BIOPRO_J.xpt",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.xpt",
+    "download_date": "2026-10-07",
+    "bytes": 2106080,
+    "sha256": "5bcd5722c1892883b96a9d7fed0befadabacae313f800fadc0133cd5dd00c4c6"
+  },
+  {
+    "file": "docs/BIOPRO_J.htm",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm",
+    "download_date": "2026-10-07",
+    "bytes": 133515,
+    "sha256": "9943388b7a851d278f0c0d608a0ca1d44cf44185b28ae582d3a8e37cb400a4ab"
+  },
+  {
+    "file": "data/raw/DEMO_J.xpt",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.xpt",
+    "download_date": "2026-10-07",
+    "bytes": 3412720,
+    "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec"
+  },
+  {
+    "file": "docs/DEMO_J.htm",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm",
+    "download_date": "2026-10-07",
+    "bytes": 167262,
+    "sha256": "07f8f1e7f884fab180ccf53c705652de9d663833fdad85b0d759919c8464cde0"
+  }
+]

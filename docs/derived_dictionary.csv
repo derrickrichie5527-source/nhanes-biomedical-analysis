@@ -1,0 +1,24 @@
+field,type,meaning
+SEQN,integer,Source participant ID; unique within each source
+RIDAGEYR,integer,Age in years; 80 means 80 or older
+RIAGENDR,integer,"Source recorded sex: 1 Male, 2 Female"
+SexLabel,text,Decoded recorded sex
+AgeBand,text,"20-39, 40-59, 60-79, 80+"
+Biomarker,text,"ALT, AST, GGT, Albumin, Creatinine or BUN"
+SourceVariable,text,Original CDC variable name for the measurement
+Value,number/blank,Original measurement in Unit; blank means missing
+Unit,text,Published source measurement unit
+DetectionFlag,integer/blank,"Applicable ALT/GGT detection-limit code; 0 at/above, 1 below; blank if unavailable or not applicable"
+IsMissing,integer,1 if Value is missing; otherwise 0
+IQRReviewFlag,integer/blank,1 beyond pooled adult 1.5-IQR bounds; 0 within; blank if Value missing; statistical review only
+WTMEC2YR,number,"MEC examination weight; retained, not used in summaries"
+SDMVSTRA,integer,Survey stratum; retained
+SDMVPSU,integer,Survey primary sampling unit; retained
+Participants,integer,"All measurement slots in group, including missing"
+Observed,integer,Nonmissing measurement count
+Missing,integer,Missing measurement count
+MissingRate,number,Missing / Participants; fraction between 0 and 1
+Median,number/blank,Median of observed group measurements
+Mean,number/blank,Mean of observed group measurements
+Minimum,number/blank,Smallest observed group measurement
+Maximum,number/blank,Largest observed group measurement
