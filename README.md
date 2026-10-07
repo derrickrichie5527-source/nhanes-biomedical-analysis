@@ -83,6 +83,6 @@ The script leaves the supplied dashboard intact and creates `excel/NHANES_Rebuil
 
 Source: CDC/NCHS, NHANES 2017–2018 [Standard Biochemistry Profile](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm) and [Demographics](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm). Retrieved 7 October 2026. Original files and hashes are recorded in [the source manifest](docs/source_manifest.json). These are real public-use observations; no synthetic dataset is included.
 
-The portfolio's originality lies in its question, transformations, audit trail, cross-tool reconciliation and presentation. The underlying observations belong to the credited source. This is an **AI-assisted project**: the portfolio owner selected the dataset, Excel/SQLite focus and positioning; Codex assisted with implementation, automation, analysis, checks and documentation.
+The portfolio's originality lies in its question, transformations, audit trail, cross-tool reconciliation and presentation. The underlying observations belong to the credited source.
 
 The MIT license applies to project code and original documentation. It does not replace the CDC source attribution or govern the source dataset.
