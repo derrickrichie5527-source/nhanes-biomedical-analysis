@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+~$*.xlsx
+*.inspect.ndjson
+reports/workbook_data.json
+*.partial.xlsx
+
+excel/NHANES_Rebuilt_Excel.xlsx
+

@@ -1,0 +1,7 @@
+# Preserve pinned source files and manifest hashes across operating systems.
+* -text
+*.pdf binary
+*.xlsx binary
+*.sqlite binary
+*.xpt binary
+*.png binary
