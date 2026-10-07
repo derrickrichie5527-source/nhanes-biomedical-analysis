@@ -13,6 +13,7 @@
   "private_host_paths_found": 0,
   "local_excel_folder_metadata_removed": 1,
   "github_publication": "published",
-  "github_actions_execution": "pending; see repository Actions page",
-  "repository_url": "https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis"
+  "github_actions_execution": "passed",
+  "repository_url": "https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis",
+  "github_actions_run_url": "https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis/actions/runs/37650890215"
 }
