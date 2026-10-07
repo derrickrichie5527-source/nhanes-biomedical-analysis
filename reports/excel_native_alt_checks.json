@@ -1,0 +1,13 @@
+{
+  "saved_native_formula_values": "passed",
+  "native_formula_summary_rows_verified": 6,
+  "native_group_formula_cells_verified": 16,
+  "selector_checked": "ALT",
+  "cached_formula_errors": 0,
+  "charts_persisted": 2,
+  "source_rows_compared": 20975,
+  "power_query_refresh": "pending: editor text input unavailable",
+  "pivottables": "pending",
+  "slicers": "pending",
+  "automation_script": "failed: COM activation E_ACCESSDENIED"
+}

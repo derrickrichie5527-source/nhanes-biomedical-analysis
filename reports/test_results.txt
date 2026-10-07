@@ -1,0 +1,11 @@
+test_database_constraints_and_cross_tool_counts (test_pipeline.DataIntegrityTests.test_database_constraints_and_cross_tool_counts) ... ok
+test_detection_codes_and_flags (test_pipeline.DataIntegrityTests.test_detection_codes_and_flags) ... ok
+test_duplicate_real_record_rejected (test_pipeline.DataIntegrityTests.test_duplicate_real_record_rejected) ... ok
+test_no_analyte_imputation_or_removal (test_pipeline.DataIntegrityTests.test_no_analyte_imputation_or_removal) ... ok
+test_null_preserving_reshape_and_roundtrip (test_pipeline.DataIntegrityTests.test_null_preserving_reshape_and_roundtrip) ... ok
+test_real_source_counts_and_join (test_pipeline.DataIntegrityTests.test_real_source_counts_and_join) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.290s
+
+OK

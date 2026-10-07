@@ -1,0 +1,18 @@
+{
+  "long_rows_compared": 31590,
+  "group_rows_compared": 48,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "source_biochemistry_rows": 6401,
+  "source_demographics_rows": 9254,
+  "joined_rows": 6401,
+  "adult_rows": 5265,
+  "excluded_under_20": 1136,
+  "long_rows": 31590,
+  "missing_measurements": 2111,
+  "observed_measurements": 29479,
+  "imputed_values": 0,
+  "outliers_removed": 0,
+  "raw_hashes_verified": true,
+  "analysis_scope": "Unweighted adult sample descriptions; not population estimates"
+}

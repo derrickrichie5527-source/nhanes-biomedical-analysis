@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-07",
+  "route": "Windows desktop app control",
+  "opened_in_desktop_excel": "passed",
+  "full_recalculation": "passed",
+  "selector_change_ALT_to_Creatinine_and_restore": "passed",
+  "saved_and_reopened": "passed",
+  "query_editor_opened": "passed",
+  "query_editor_code_entry": "blocked: typed M code did not appear after focus retry",
+  "query_refresh": "not verified",
+  "pivottables": "not verified",
+  "slicers": "not verified",
+  "review_workbook": "excel/NHANES_Native_Excel.xlsx"
+}

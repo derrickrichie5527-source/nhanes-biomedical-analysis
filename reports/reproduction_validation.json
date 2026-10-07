@@ -1,0 +1,7 @@
+{
+  "fresh_extracted_copy_pipeline": "passed",
+  "csv_files_identical": 9,
+  "raw_hashes_verified": true,
+  "sql_reconciliation": "passed",
+  "report_regenerated": true
+}

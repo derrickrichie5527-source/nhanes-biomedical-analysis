@@ -1,0 +1,16 @@
+{
+  "status": "partially_verified",
+  "dashboard_native_checks": "passed",
+  "source_group_log_records_compared": 20975,
+  "query_refresh": "pending",
+  "pivottables": "pending",
+  "slicers": "pending",
+  "script_activation": "failed: E_ACCESSDENIED",
+  "app_control_query_code_entry": "blocked",
+  "evidence": [
+    "excel_ui_verification.json",
+    "excel_native_alt_checks.json",
+    "excel_native_creatinine_checks.json",
+    "excel_automation_attempt.json"
+  ]
+}

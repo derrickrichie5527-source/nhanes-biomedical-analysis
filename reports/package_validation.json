@@ -1,0 +1,18 @@
+{
+  "source_manifest_hashes_checked": 4,
+  "regression_tests_passed": 6,
+  "fresh_extraction_pipeline": "passed",
+  "csv_reproduction_files_identical": 9,
+  "native_excel_dashboard": "passed",
+  "native_source_rows_compared": 20975,
+  "native_query_refresh": "pending",
+  "native_pivottables": "pending",
+  "native_slicers": "pending",
+  "relative_document_links": "passed",
+  "workbook_zip_integrity": "passed",
+  "private_host_paths_found": 0,
+  "local_excel_folder_metadata_removed": 1,
+  "github_publication": "published",
+  "github_actions_execution": "pending; see repository Actions page",
+  "repository_url": "https://github.com/derrickrichie5527-source/nhanes-biomedical-analysis"
+}
