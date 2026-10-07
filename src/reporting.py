@@ -86,7 +86,7 @@ def make_report(root,overall,grouped,audit,bounds):
     p('Excel verification status','Heading2')
     p('The native review workbook opened, recalculated, saved and reopened in desktop Excel. Six formula summaries and the age/sex selector results matched the verified data for ALT and Creatinine. Both charts persisted. Power Query opened, but editor text input through app control failed; script activation also returned access denied. Query refresh, PivotTables and slicers remain pending. Their M queries and completion script are supplied, with verification status documented.')
     p('Source and authorship','Heading2')
-    p('Source: CDC, National Center for Health Statistics. National Health and Nutrition Examination Survey, 2017-2018, Standard Biochemistry Profile and Demographics. Public-use data retrieved 7 October 2026. Source file hashes are pinned in the pipeline. This is an AI-assisted portfolio project; contributions and verification status are documented in the repository.')
+    p('Source: CDC, National Center for Health Statistics. National Health and Nutrition Examination Survey, 2017-2018, Standard Biochemistry Profile and Demographics. Public-use data retrieved 7 October 2026. Source file hashes are pinned in the pipeline.')
     for title,url in [('CDC biochemistry codebook','https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm'),('CDC demographics codebook','https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm')]:
         p(f'<link href="{url}" color="#248A8D">{title}</link>')
     def footer(canvas,doc):
